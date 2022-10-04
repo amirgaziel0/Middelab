@@ -1,0 +1,8 @@
+FROM nginx:latest
+
+#MAINTAINER Amir gaziel
+
+RUN apt-get update && apt install curl -y && apt-get install telnet -y && apt-get install wget -y
+  
+
+#COPY ./index.html /home/amir/Middel_Lab/web/index.html
